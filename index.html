@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <div class="menu__btn">
+          <span></span>
+        </div>
+        <ul class="menu__list">
+          <li class="menu__list-item"><a class="menu__list-link" href="#home">Home</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#about">About me</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#skills">Skills</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#portfolio">Portfolio</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div id="home" class="header__top">
+        <div class="header__info">
+          <h1 class="header__title">Denis <br>Novik</h1>
+          <div class="header__data">
+            <p class="header__profession">UX | UI designer</p>
+            <p class="header__location">24 years old, Minsk</p>
+          </div>
+          <div class="header__language">
+            <a class="header__language-link" href="#">ru</a>
+            <a class="header__language-link language-link--active" href="#">eng</a>
+          </div>
+        </div>
+        <div class="header__top-img">
+          <img src="images/photo.jpg" alt="My photo">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about__inner">
+        <h3 class="about__title title">About me</h3>
+        <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything
+          connected with it.</p>
+        <p class="about__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+        <p class="about__text">Ready to implement excellent projects with wonderful people.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills">
+    <div class="container">
+      <h3 class="skills__title title">Skills</h3>
+      <p class="skills__text">I work in such programs as</p>
+      <div class="skills__items">
+        <div class="skills__item">
+          <div class="skills__item-img">
+            <img src="images/PS.png" alt="Ps" class="skills__item-img">
+          </div>
+          <h5 class="skills__item-name">Adobe Photoshop</h5>
+          <div class="stars">
+            <input name="rating" value="5" id="ps_rating_5" type="radio" />
+            <label for="ps_rating_5" class="label_rating"></label>
+            <input name="rating" value="4" id="ps_rating_4" type="radio" />
+            <label for="ps_rating_4" class="label_rating"></label>
+            <input name="rating" value="3" id="ps_rating_3" type="radio" />
+            <label for="ps_rating_3" class="label_rating"></label>
+            <input name="rating" value="2" id="ps_rating_2" type="radio" />
+            <label for="ps_rating_2" class="label_rating"></label>
+            <input name="rating" value="1" id="ps_rating_1" type="radio" />
+            <label for="ps_rating_1" class="label_rating"></label>
+          </div>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-img">
+            <img src="images/AI.png" alt="Ai" class="skills__item-img">
+          </div>
+          <h5 class="skills__item-name">Adobe Illustrator</h5>
+          <div class="stars">
+            <input name="rating" value="5" id="ai_rating_5" type="radio" />
+            <label for="ai_rating_5" class="label_rating"></label>
+            <input name="rating" value="4" id="ai_rating_4" type="radio" />
+            <label for="ai_rating_4" class="label_rating"></label>
+            <input name="rating" value="3" id="ai_rating_3" type="radio" />
+            <label for="ai_rating_3" class="label_rating"></label>
+            <input name="rating" value="2" id="ai_rating_2" type="radio" />
+            <label for="ai_rating_2" class="label_rating"></label>
+            <input name="rating" value="1" id="ai_rating_1" type="radio" />
+            <label for="ai_rating_1" class="label_rating"></label>
+          </div>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-img">
+            <img src="images/AE.png" alt="Ae" class="skills__item-img">
+          </div>
+          <h5 class="skills__item-name">Adobe <br>After Effects</h5>
+          <div class="stars">
+            <input name="rating" value="5" id="ae_rating_5" type="radio" />
+            <label for="ae_rating_5" class="label_rating"></label>
+            <input name="rating" value="4" id="ae_rating_4" type="radio" />
+            <label for="ae_rating_4" class="label_rating"></label>
+            <input name="rating" value="3" id="ae_rating_3" type="radio" />
+            <label for="ae_rating_3" class="label_rating"></label>
+            <input name="rating" value="2" id="ae_rating_2" type="radio" />
+            <label for="ae_rating_2" class="label_rating"></label>
+            <input name="rating" value="1" id="ae_rating_1" type="radio" />
+            <label for="ae_rating_1" class="label_rating"></label>
+          </div>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-img">
+            <img src="images/FIG.png" alt="Figma" class="skills__item-img">
+          </div>
+          <h5 class="skills__item-name">Figma</h5>
+          <div class="stars">
+            <input name="rating" value="5" id="fig_rating_5" type="radio" />
+            <label for="fig_rating_5" class="label_rating"></label>
+            <input name="rating" value="4" id="fig_rating_4" type="radio" />
+            <label for="fig_rating_4" class="label_rating"></label>
+            <input name="rating" value="3" id="fig_rating_3" type="radio" />
+            <label for="fig_rating_3" class="label_rating"></label>
+            <input name="rating" value="2" id="fig_rating_2" type="radio" />
+            <label for="fig_rating_2" class="label_rating"></label>
+            <input name="rating" value="1" id="fig_rating_1" type="radio" />
+            <label for="fig_rating_1" class="label_rating"></label>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h3 class="portfolio__title title">Portfolio</h3>
+      <div class="portfolio__item">
+        <img class="portfolio__item-img" src="images/fashion-store.jpg" alt="fashion-store">
+        <a class="portfolio__item-link" href="#">Online fashion store - Homepage</a>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__item-img" src="images/reebok-store.jpg" alt="reebok-store">
+        <a class="portfolio__item-link" href="#">Reebok Store - Concept</a>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__item-img" src="images/braun.jpg" alt="braun">
+        <a class="portfolio__item-link" href="#">Reebok Store - Concept</a>
+      </div>
+    </div>
+  </section>
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <h3 class="contacts__title title">Contacts</h3>
+      <p class="contacts__text">Want to know more or just chat? <br>You are welcome!</p>
+      <button class="contacts__btn" type="button">Send message</button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__social-links">
+        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+        <a href="#"><img src="images/behance.svg" alt="behance"></a>
+        <a href="#"><img src="images/dribble.svg" alt="dribble"></a>
+      </div>
+      <p class="footer__text">
+        Like me on Linked <br>In, Instagram, Behance, Dribble
+      </p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
